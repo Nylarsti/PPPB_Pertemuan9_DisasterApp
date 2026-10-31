@@ -14,6 +14,7 @@ onClickDisaster: OnClickDisaster) :
 
         fun bind(data: Disaster) {
             with(binding) {
+                imgDisaster.setImageResource(data.imageDisaster)
                 txtDisasterName.text = data.nameDisaster
                 txtDisasterType.text = data.disasterType
 
